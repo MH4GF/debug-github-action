@@ -5,6 +5,6 @@ module.exports = async ({ github, context, core }) => {
     });
   } catch (error) {
     console.log({ error });
-    if (error instanceof Error) core.setFailed(error);
+    // if (error instanceof Error) core.setFailed(error);
   }
 };
