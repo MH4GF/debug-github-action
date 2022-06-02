@@ -7,5 +7,5 @@ jobs:
       - uses: actions/github-script@v6
         with:
           script: |
-            const script = require('../src/script.js')
+            const script = require('./src/script.js')
             await script({github, context, core})
